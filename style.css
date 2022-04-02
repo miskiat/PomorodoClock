@@ -1,0 +1,96 @@
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: rgb(90, 180, 207);
+}
+header {
+  margin-left: 2rem;
+  font-size: 3rem;
+  color: rgb(28, 54, 173);
+}
+.circle {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 5px solid rgb(61, 147, 218);
+  margin: auto;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  box-shadow: 1px 1px 15px rgb(0, 135, 224);
+}
+.inner-circle {
+  width: 15rem;
+  height: 15rem;
+  background-color: transparent;
+  border: 5px solid rgb(61, 147, 218);
+  border-radius: 50%;
+  box-shadow: 1px 1px 25px rgb(4, 143, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 10rem;
+  height: 10rem;
+  background-color: transparent;
+  border: 5px solid rgb(61, 147, 218);
+  border-radius: 50%;
+  box-shadow: 1px 1px 15px rgb(4, 141, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.min {
+  /* position: absolute; */
+  font-size: 3rem;
+  color: rgb(62, 126, 223);
+}
+
+.sec {
+  /* position: absolute; */
+  font-size: 3rem;
+  color: rgb(62, 126, 223);
+}
+.dot {
+  font-size: 2rem;
+  color: rgb(62, 126, 223);
+}
+
+.num input {
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: rgb(4, 141, 231);
+  border-radius: 1rem;
+  font-size: large;
+  color: rgb(28, 54, 173);
+  border: rgb(4, 141, 231);
+}
+button {
+  height: 5rem;
+  width: 6rem;
+  color: rgb(52, 111, 189);
+  font-size: 2rem;
+  background-color: rgb(4, 141, 231);
+  border-radius: 1rem;
+  cursor: pointer;
+  border: rgb(4, 141, 231);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 4rem;
+  gap: 3rem;
+}
